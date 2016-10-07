@@ -4,3 +4,7 @@ Individual networks provided by the challenge were merged with C++ based on lemo
 The output "dream_merge.graphml" is then used for the PARAFAC method.
 
 The analytical steps listed in parafac_submission.py were used with the python 3.5 interactive shell. It is assumed that "dream_merge.graphml" is present in the folder from which the interactive shell is called, the predicted disease modules are written as "nonneg_parafac_submission.gmt" in the same folder.
+
+
+Required additional python packages/modules:
+igraph, scipy, numpy, sktensor
